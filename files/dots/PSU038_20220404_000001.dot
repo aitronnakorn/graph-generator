@@ -1,0 +1,9 @@
+digraph g{
+graph [bgcolor=white, overlap=scale]
+node [fixedsize=true, shape=circle, fillcolor=gray, width=0.5, height=0.5, fontsize=10, style=filled, labelfloat=true]
+edge [len=10,splines=line,color=white,arrowhead=vee]
+	"192.168.1.1" [width=1.25,height=1.25,fillcolor=lightskyblue,fontcolor=black,fontsize=10.0]
+	"192.168.1.112" [width=1.25,height=1.25,fillcolor=lightskyblue,fontcolor=black,fontsize=10.0]
+	"192.168.1.1"->"192.168.1.112"[color=gray, style=bold];
+	"192.168.1.112"->"192.168.1.1"[color=gray, style=bold];
+}
